@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Client</id>
+    <version>1.0.0</version>
+    <authors>Client</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\OneDrive\Academic\网络协议开发\实验4\The Game\The Game\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json" target="lib\net6.0-windows7.0\Client.runtimeconfig.json" />
+    <file src="D:\OneDrive\Academic\网络协议开发\实验4\The Game\The Game\Client\bin\Debug\net6.0-windows\Client.dll" target="lib\net6.0-windows7.0\Client.dll" />
+  </files>
+</package>

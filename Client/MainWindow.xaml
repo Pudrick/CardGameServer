@@ -1,0 +1,26 @@
+﻿<Window x:Name="LoginWindow" x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Card Game-Login" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF9AD4D0"/>
+            <GradientStop Color="#FFA1DEA5" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+
+        <TextBox x:Name="IDbox" HorizontalAlignment="Center" TextWrapping="Wrap" Width="282" TextAlignment="Center" Background="#FFFBFBFB" FontSize="20" Height="38" VerticalAlignment="Top" RenderTransformOrigin="0.47,2.13" Margin="0,232,0,0"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Center" Margin="0,288,0,0" VerticalAlignment="Top" Width="282" Height="38" Password="" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="173,238,0,0" TextWrapping="Wrap" Text="Your ID:" VerticalAlignment="Top" Height="27" Width="81" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="164,294,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Height="27" Width="81" FontSize="18"/>
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="259,350,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.592,0.551" Width="124" Height="28" AutomationProperties.HelpText="Login to game server" Click="LoginButton_Click"/>
+        <Button x:Name="RegisterButton" Content="Register" HorizontalAlignment="Left" Margin="418,350,0,0" VerticalAlignment="Top" Height="28" Width="123" AutomationProperties.HelpText="Register a new account"/>
+
+    </Grid>
+
+</Window>

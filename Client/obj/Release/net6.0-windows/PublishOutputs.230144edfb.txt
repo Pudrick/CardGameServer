@@ -1,0 +1,5 @@
+C:\Users\Pudrick\Desktop\tempbin\Loggin\Client.exe
+C:\Users\Pudrick\Desktop\tempbin\Loggin\Client.dll
+C:\Users\Pudrick\Desktop\tempbin\Loggin\Client.deps.json
+C:\Users\Pudrick\Desktop\tempbin\Loggin\Client.runtimeconfig.json
+C:\Users\Pudrick\Desktop\tempbin\Loggin\Client.pdb
